@@ -1,0 +1,490 @@
+.navbar {
+  background-color: #f4f4f4 !important;
+}
+
+.navbar .container-fluid .navbar-collapse div .btn {
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.navbar .container-fluid .navbar-collapse div .btn-register {
+  color: #fff;
+  border-radius: 10px !important;
+}
+
+.landing-page {
+  background-color: #ff9f00;
+  background-image: url("./assets/background.png");
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* ====================================== Content ====================================== */
+.content {
+  height: 100%;
+}
+
+.content .row .col {
+  height: 100vh;
+}
+
+.content .row .left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.content .row .left-side div h1 {
+  font-size: 72px;
+  margin-bottom: 50px;
+}
+
+.content .row .left-side div p {
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.content .row .left-side .btn {
+  width: 300px !important;
+  height: 60px !important;
+  background-color: #000;
+  border-radius: 10px !important;
+  color: #fff;
+  font-size: 25px;
+}
+
+.content .row .right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content .row .right-side div {
+  position: relative;
+}
+
+.content .row .right-side div .phone-image {
+  position: absolute;
+  top: 22%;
+  left: -14%;
+}
+
+/* ====================================== Modal Login ====================================== */
+.modal .modal-dialog .modal-content {
+  border: none !important;
+  border-radius: 10px !important;
+  width: 416px !important;
+}
+
+.modal .modal-dialog .modal-content .modal-body h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.modal .modal-dialog .modal-content .modal-body .btn {
+  margin-top: 30px;
+  background-color: #ff9f00 !important;
+  height: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 10px !important;
+}
+
+/* ====================================== Dashboard ====================================== */
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+.dashboard-container .sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 17%;
+}
+
+.dashboard-container .sidebar .top {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard-container .sidebar .top img {
+  margin: 30px 0px 70px 0px;
+}
+
+.dashboard-container .sidebar a {
+  text-decoration: none;
+  color: #000;
+}
+
+.dashboard-container .sidebar .top .menu .profile {
+  margin: 60px 0px;
+}
+
+.dashboard-container .sidebar a span {
+  font-size: 24px;
+}
+
+.dashboard-container .sidebar i {
+  font-size: 24px;
+  margin-right: 20px;
+  width: 50px;
+  text-align: center;
+}
+
+.dashboard-container .sidebar .bottom {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard-container .content {
+  width: 83%;
+  overflow: hidden;
+}
+
+/* ====================================== Template ====================================== */
+.template-container {
+  background-color: #ececec;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+
+.template-container img {
+  cursor: pointer;
+}
+
+/* ====================================== Profile ====================================== */
+.profile-container {
+  background-color: #ececec;
+  height: 100%;
+  padding: 45px;
+}
+
+.profile-container h2 {
+  font-size: 24px;
+  margin-bottom: 45px;
+}
+
+.profile-container .form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.profile-container .form .name {
+  margin-bottom: 30px;
+}
+
+.profile-container .form label {
+  margin-bottom: 10px;
+}
+
+.profile-container .form input {
+  border: none;
+  border-bottom: 1px solid #7e7a7a;
+  width: 100%;
+  outline: none;
+}
+
+.profile-container .button {
+  text-align: end;
+}
+
+.profile-container .button .btn-save {
+  background-color: #ff9f00;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.profile-container .button .btn-delete {
+  background-color: #ff0000;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* ====================================== My Link ====================================== */
+.my-link-container {
+  background-color: #ececec;
+  height: 100%;
+  padding: 45px 100px 45px 45px;
+}
+
+.my-link-container .search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.my-link-container .search .left .total-link {
+  margin-left: 20px;
+  background-color: #ff9f00;
+  width: 30px;
+  height: 25px;
+  border-radius: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.my-link-container .search .center .search-area {
+  border-bottom: 1px solid #7e7a7a;
+  padding-bottom: 10px;
+  width: 1050px;
+}
+
+.my-link-container .search .center .search-area input {
+  border: none;
+  outline: none;
+  background-color: #ececec;
+  margin-left: 10px;
+}
+
+.my-link-container .search .right .btn-search {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #ff9f00;
+  color: #fff;
+  font-size: 14px;
+}
+
+.my-link-container .brands {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  margin-bottom: 20px;
+}
+
+.my-link-container .brands .left {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.my-link-container .brands .left img {
+  width: 100px;
+  height: 100px;
+}
+
+.my-link-container .brands .left .brand-name {
+  margin-left: 30px;
+}
+
+.my-link-container .brands .center {
+  width: 100%;
+  text-align: center;
+}
+
+.my-link-container .brands .right {
+  width: 100%;
+  text-align: right;
+}
+
+.my-link-container .brands .right button {
+  border: none;
+  /* padding: 0px !important; */
+}
+
+.my-link-container .brands .right a {
+  text-decoration: none;
+}
+
+.my-link-container .brands .right img {
+  cursor: pointer;
+}
+
+.my-link-container .brands .right .edit-btn {
+  margin: 0px 20px;
+}
+
+/* ====================================== Manage Brand ====================================== */
+.manage-brand-container {
+  background-color: #ececec;
+  height: 100%;
+  padding: 45px 350px 45px 45px;
+}
+
+.manage-brand-container form .top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.manage-brand-container form .top h2 {
+  font-size: 24px;
+}
+
+.manage-brand-container form .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.manage-brand-container form .bottom .left {
+  overflow: auto;
+  background-color: #fff;
+  padding: 25px;
+  width: 100%;
+  height: 70vh;
+  border-radius: 10px;
+  margin-right: 90px;
+}
+
+.manage-brand-container form .bottom .left .before-upload-brand {
+  margin-right: 60px;
+  width: 124px;
+  height: 119px;
+}
+
+.manage-brand-container form .bottom .left .btn-upload-brand-image,
+.manage-brand-container form .bottom .left .link .btn-upload-link-image {
+  cursor: pointer;
+  text-align: center;
+  line-height: 40px;
+}
+
+.manage-brand-container form .bottom .left .brand {
+  margin-top: 40px;
+}
+
+.manage-brand-container form .bottom .left .brand .description-brand {
+  margin: 40px 0px 85px 0px;
+}
+
+.manage-brand-container form .bottom .left .link {
+  background-color: #ececec;
+  padding: 20px;
+  display: flex;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.manage-brand-container form .bottom .left .link img {
+  margin-bottom: 20px;
+}
+
+.manage-brand-container form .bottom .left .link .before-upload-container {
+  width: min-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.manage-brand-container form .bottom .left .link .before-upload-container img {
+  width: 124px;
+  height: 119px;
+}
+
+.manage-brand-container form .bottom .left .link .input-area {
+  width: 100%;
+}
+
+.manage-brand-container form .bottom .left .link .input-area input {
+  background-color: #ececec;
+}
+
+.manage-brand-container form .bottom .left .link .input-area .title-link {
+  margin-bottom: 20px;
+}
+
+/* ====================================== Output ====================================== */
+.output-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 900px;
+  height: 100vh;
+  text-align: center;
+}
+
+.output-container .brand {
+  align-items: center;
+}
+
+.output-container .links .link {
+  width: 100%;
+  height: 60px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.output-container .links a {
+  text-decoration: none;
+}
+
+.output-container .links .link p {
+  margin-top: 15px;
+}
+
+.output-container .link img {
+  width: 6%;
+  margin-right: 40%;
+}
+
+/* ====================================== All ====================================== */
+.content h1 {
+  margin: 30px 0px;
+  font-size: 24px;
+}
+
+.my-link-container .search .left,
+.my-link-container .search .center .search-area {
+  display: flex;
+  align-items: center;
+}
+
+.manage-brand-container form .top button,
+.manage-brand-container form .bottom .left .btn-upload-brand-image,
+.manage-brand-container form .bottom .left .link .btn-upload-link-image {
+  background-color: #ff9f00;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.manage-brand-container form .bottom .left .brand label,
+.manage-brand-container form .bottom .left .link .input-area label {
+  font-size: 15px;
+  color: #7e7a7a;
+}
+
+.manage-brand-container form .bottom .left .brand input,
+.manage-brand-container form .bottom .left .link .input-area input {
+  border: none;
+  border-bottom: 1px solid #7e7a7a;
+  padding: 10px 0px;
+  width: 100%;
+  outline: none;
+}
